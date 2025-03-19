@@ -8,8 +8,7 @@ public class Atividade01 {
 		String frase = "Olá mundo";
 		String frase1 = frase.substring(0, 9); 
 		int tamanho = frase.length();
-		char letra = frase1.charAt(9); //
-		
+		char letra = frase1.charAt(8); 
 		
 		
 		// Instaciar class Scanner
@@ -17,12 +16,16 @@ public class Atividade01 {
 		
 		// Entrada de dados
 		System.out.println("Informe a frase");
-		frase = ler.next();
+		frase = ler.nextLine();
 		
 		System.out.println("Posição caractere: ");
-         frase1 = ler.next();
+         frase1 = ler.nextLine();
 
 		System.out.println("O tamanho é: " + tamanho);
+	}
+
+}
+
 		
 		
 		
